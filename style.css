@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img.header{
+    height: 120px;
+    width: 250px;
+    display: flex;
+    margin-left: 15%;
+}
+ul.header{
+    display: flex;
+    list-style: none;
+    margin-right: 15%;
+}
+li{
+    margin-right: 20px; 
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #000;
+}
+img.discount-img{
+    height: 550px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    /* padding: 10px;  */
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.column {
+    flex: 1; 
+    background-color: #f0f0f0; 
+    text-align: left; 
+    margin: 10px;
+    padding: 10px;
+}
+.welcome{
+    background-color:rgb(131, 11, 11);
+    margin-left: 0px;
+}
+.services{
+    background-color: rgb(192, 18, 97);
+}
+.about{
+    background-color: rgb(119, 40, 89);
+    margin-right: 0px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Optional: Adds some padding to the footer */
+}
+
+.footer-words {
+    flex: 1;
+    margin-left: 15%; /* Adds some space between the text and the image */
+}
+
+.footer-image {
+    flex: 1;
+    text-align: center; /* Centers the image horizontally */
+}
+
+img.footer-image{
+    height: 200;
+    width: 269;
+}
+.disclaimer{
+    background-color: #000;
+    color:white;
+}
